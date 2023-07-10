@@ -27,6 +27,10 @@ MonoBehaviour:
       Table/Global Variables Sample Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: d72a34df52e2b8a40bf809f09505aadb
+    m_Address: Assets/Localization/UILocalization Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 23fd28297b90cd84f8b7b26826d6b3c9, type: 2}
   m_SchemaSet:
