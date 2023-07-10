@@ -222,6 +222,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &105898619 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4992760412681635507, guid: 18d54b373e698914aae327e64f2d243a, type: 3}
+  m_PrefabInstance: {fileID: 4599702132193196364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &250993003 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3116113653688483244, guid: 528236f5aa328a943a8c929c074c6d9f, type: 3}
@@ -232,7 +237,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7185682123150697049, guid: 501a102484028dc4396dcbcc43ebd54c, type: 3}
   m_PrefabInstance: {fileID: 7185682122329800802}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1730050352}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -1020,6 +1025,11 @@ Transform:
   m_Father: {fileID: 1879312040}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1730050352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7185682123150697051, guid: 501a102484028dc4396dcbcc43ebd54c, type: 3}
+  m_PrefabInstance: {fileID: 7185682122329800802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1841715503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e544acb797ffc43af5ec857f5a7739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swithSceneButton: {fileID: 299242243}
+  nextSceneButton: {fileID: 299242243}
+  nextSceneButtonObject: {fileID: 1730050352}
   managingAnimator:
   - {fileID: 250993003}
   - {fileID: 806353904}
@@ -1555,6 +1566,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293675231}
     m_Modifications:
+    - target: {fileID: 2067871905964396120, guid: 18d54b373e698914aae327e64f2d243a, type: 3}
+      propertyPath: nextSceneButtton
+      value: 
+      objectReference: {fileID: 1730050352}
+    - target: {fileID: 2067871905964396120, guid: 18d54b373e698914aae327e64f2d243a, type: 3}
+      propertyPath: gameObjectCollider
+      value: 
+      objectReference: {fileID: 105898619}
     - target: {fileID: 4599702133818406413, guid: 18d54b373e698914aae327e64f2d243a, type: 3}
       propertyPath: m_Name
       value: spark
@@ -1683,6 +1702,10 @@ PrefabInstance:
     - target: {fileID: 7185682122857389954, guid: 501a102484028dc4396dcbcc43ebd54c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185682123150697051, guid: 501a102484028dc4396dcbcc43ebd54c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7185682123652997730, guid: 501a102484028dc4396dcbcc43ebd54c, type: 3}
       propertyPath: m_Name

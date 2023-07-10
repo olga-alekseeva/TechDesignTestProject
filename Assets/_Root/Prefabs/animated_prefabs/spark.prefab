@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4599702133000667354}
   - component: {fileID: 4599702133000667353}
   - component: {fileID: 4599702133000667352}
-  - component: {fileID: 4599702133000667355}
+  - component: {fileID: 4992760412681635507}
+  - component: {fileID: 2067871905964396120}
   m_Layer: 0
   m_Name: spark_1
   m_TagString: Untagged
@@ -106,20 +107,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!136 &4599702133000667355
-CapsuleCollider:
+--- !u!70 &4992760412681635507
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4599702133000667359}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.041787148, y: -0.05969222}
+  m_Size: {x: 3.8539267, y: 1.2551978}
+  m_Direction: 1
+--- !u!114 &2067871905964396120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4599702133000667359}
   m_Enabled: 1
-  m_Radius: 0.5804559
-  m_Height: 4.2310185
-  m_Direction: 0
-  m_Center: {x: -0.14675856, y: -0.116038896, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911531626ea41ff48bcc076b1ed88780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectCollider: {fileID: 0}
+  nextSceneButtton: {fileID: 0}
 --- !u!1 &4599702133818406413
 GameObject:
   m_ObjectHideFlags: 0

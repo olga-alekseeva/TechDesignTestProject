@@ -8,11 +8,11 @@ public class ActivateCollider : MonoBehaviour
     public void OnMouseDown()
     {
         int i = 0;
-       
-        for ( i= 0; i < managingAnimator.Length; i++)
+
+        for (i = 0; i < managingAnimator.Length; i++)
         {
             managingAnimator[i].enabled = true;
         }
-        
+
     }
 }

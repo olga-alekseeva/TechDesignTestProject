@@ -6,8 +6,10 @@ public class Starter_scene_2 : MonoBehaviour
 {
 
     [SerializeField] public Button swithSceneButton;
+    [SerializeField] public GameObject swithSceneButtonObject;
     void Start()
     {
+        swithSceneButtonObject.SetActive(false);
         swithSceneButton.onClick.AddListener(SwitchScene);
     }
 
